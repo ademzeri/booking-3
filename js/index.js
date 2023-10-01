@@ -56,11 +56,11 @@
         const cvc = document.getElementById("cvc");
         const cardImage = document.getElementById("card-image");
         const cardImages = {
-            visa: "../assets/visa.png",
-            mastercard: "../assets/card.png",
-            amex: "../assets/amex.png",
-            jcb: "../assets/jcb.png",
-            discover: "../assets/discover.png"
+            visa: "/assets/visa.png",
+            mastercard: "/assets/card.png",
+            amex: "/assets/amex.png",
+            jcb: "/assets/jcb.png",
+            discover: "/assets/discover.png"
         }  
         email.addEventListener("input", () => {
             validateInput(email, emailRegex);
